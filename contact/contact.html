@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="/contact/contact.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <img src="../assets/logo2.jpeg" alt="company-logo" class="logo">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Are you a customer? Supplier? Corporate customer? 
+            Your feedback helps us serve you better! We value your insights
+            and invite you to share your thoughts on how we can enhance our partnership
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <div class="icon">
+                <i class="ri-map-pin-2-line"></i>
+              </div>
+              <p>Meru, Kenya</p>
+            </div>
+            <div class="information">
+              <div class="icon">
+                <i class="ri-mail-line"></i>
+              </div>
+              <p>beisawa@gmail.com</p>
+            </div>
+            <div class="information">
+              <div class="icon">
+                <i class="ri-phone-line"></i>
+              </div>
+              <p>0712345678</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="/contact/contact.html" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="name">Name/Company name</label>
+              <span>Name/ company name</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="email">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="phone">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="message">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="/contact/contact.js"></script>
+  </body>
+</html>
